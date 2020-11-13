@@ -7,11 +7,20 @@
     android:orientation="vertical"
     tools:context=".SchoolActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="오늘의 메뉴는?"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+
     <ImageView
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:layout_gravity="center"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="40dp"
         android:src="@drawable/school"/>
 
     <TextView
@@ -19,8 +28,16 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="시장분식"
-        android:textSize="35sp"
+        android:text="시장분식 입니다."
+        android:textSize="30sp"
         android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:text="주소 : 관천로 19"
+        android:textSize="25dp"/>
 
 </LinearLayout>
