@@ -40,4 +40,13 @@
         android:text="주소 : 관천로 19"
         android:textSize="25dp"/>
 
+    <Button
+        android:id="@+id/school_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="주소 보기"
+        android:textSize="15sp"
+        android:background="#F3E357"/>
+
 </LinearLayout>
