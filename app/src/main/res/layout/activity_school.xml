@@ -7,10 +7,15 @@
     android:orientation="vertical"
     tools:context=".SchoolActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:text="오늘의 메뉴는?"
         android:textSize="35sp"
@@ -19,34 +24,41 @@
     <ImageView
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:layout_gravity="center"
         android:layout_marginTop="40dp"
-        android:src="@drawable/school"/>
+        android:src="@drawable/store10"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:text="시장분식 입니다."
         android:textSize="30sp"
         android:textStyle="bold"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="20dp"
-        android:text="주소 : 관천로 19"
-        android:textSize="25dp"/>
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/school_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="주소 보기"
-        android:textSize="15sp"
-        android:background="#F3E357"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/school_abtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F3E357"
+            android:text="주소 보기"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/school_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F3E357"
+            android:text="정보 보기"
+            android:textSize="15sp" />
+
+    </LinearLayout>
 
 </LinearLayout>
