@@ -14,9 +14,9 @@ public class Final1Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_final10);
-        Button btnDialog = findViewById(R.id.btn_store10_address);
-        Button btn10 = findViewById(R.id.btn_store10);
+        setContentView(R.layout.activity_final1);
+        Button btnDialog = findViewById(R.id.btn_store1_address);
+        Button btn10 = findViewById(R.id.btn_store1);
         btnDialog.setOnClickListener(btnListener);
         btn10.setOnClickListener(btnListener);
     }
@@ -31,7 +31,7 @@ public class Final1Activity extends AppCompatActivity {
                 case R.id.btn_store10_address:
                     AlertDialog.Builder dialog = new AlertDialog.Builder(Final1Activity.this);
                     dialog.setTitle("가게 주소");
-                    dialog.setMessage("관천로 19");
+                    dialog.setMessage("남부순환로 1600-1");
                     dialog.setIcon(R.mipmap.ic_address);
                     dialog.setPositiveButton("확인", null);
                     dialog.show();

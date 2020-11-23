@@ -14,9 +14,9 @@ public class Final11Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_final10);
-        Button btnDialog = findViewById(R.id.btn_store10_address);
-        Button btn10 = findViewById(R.id.btn_store10);
+        setContentView(R.layout.activity_final11);
+        Button btnDialog = findViewById(R.id.btn_store11_address);
+        Button btn10 = findViewById(R.id.btn_store11);
         btnDialog.setOnClickListener(btnListener);
         btn10.setOnClickListener(btnListener);
     }
