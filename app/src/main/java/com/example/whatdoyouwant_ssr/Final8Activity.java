@@ -26,7 +26,7 @@ public class Final8Activity extends AppCompatActivity {
         public void onClick(View v) {
             switch (v.getId()){
                 case R.id.btn_store10:
-                    clicked_btn10("https://map.naver.com/v5/search/%EC%8B%9C%EC%9E%A5%EB%B6%84%EC%8B%9D/place/1344551600?c=14128799.4575170,4506643.5846943,15,0,0,0,dh&placePath=%3F%2526");
+                    clicked_btn10("https://map.naver.com/v5/entry/place/992830276?c=14127626.6268642,4506784.5154652,13,0,0,0,dh&placePath=%2Fhome%3Fentry=plt");
                     break;
                 case R.id.btn_store10_address:
                     AlertDialog.Builder dialog = new AlertDialog.Builder(Final8Activity.this);
