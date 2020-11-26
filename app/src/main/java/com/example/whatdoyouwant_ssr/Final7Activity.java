@@ -14,21 +14,21 @@ public class Final7Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_final7);
-        Button btnDialog = findViewById(R.id.btn_store7_address);
-        Button btn10 = findViewById(R.id.btn_store7);
+        setContentView(R.layout.activity_final1);
+        Button btnDialog = findViewById(R.id.btn_store1_address);
+        Button btn1 = findViewById(R.id.btn_store1);
         btnDialog.setOnClickListener(btnListener);
-        btn10.setOnClickListener(btnListener);
+        btn1.setOnClickListener(btnListener);
     }
 
     View.OnClickListener btnListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
             switch (v.getId()){
-                case R.id.btn_store10:
-                    clicked_btn10("https://map.naver.com/v5/search/%EC%8B%A0%EB%A6%BC%20%EC%95%84%EC%A0%80%EC%94%A8%20%EB%8B%AD%EA%B0%95%EC%A0%95/place/38419372?c=14125553.2724720,4507032.9358071,13,0,0,0,dh&placePath=%3Fentry%253Dpll%2526");
+                case R.id.btn_store1:
+                    clicked_btn1("https://map.naver.com/v5/search/%EC%8B%A0%EB%A6%BC%20%EC%95%84%EC%A0%80%EC%94%A8%20%EB%8B%AD%EA%B0%95%EC%A0%95/place/38419372?c=14125553.2724720,4507032.9358071,13,0,0,0,dh&placePath=%3Fentry%253Dpll%2526");
                     break;
-                case R.id.btn_store10_address:
+                case R.id.btn_store1_address:
                     AlertDialog.Builder dialog = new AlertDialog.Builder(Final7Activity.this);
                     dialog.setTitle("가게 주소");
                     dialog.setMessage("관천로 45-1");
@@ -38,7 +38,7 @@ public class Final7Activity extends AppCompatActivity {
             }
         }
 
-        private void clicked_btn10(String url) {
+        private void clicked_btn1(String url) {
             Intent intent = new Intent(Intent.ACTION_VIEW);
             intent.setData(Uri.parse(url));
             startActivity(intent);

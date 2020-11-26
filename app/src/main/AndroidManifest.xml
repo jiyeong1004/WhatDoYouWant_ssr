@@ -12,26 +12,17 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Final1Activity"/>
         <activity android:name=".Final2Activity"/>
-        <activity android:name=".Final3Activity"/>
-        <activity android:name=".Final4Activity"/>
-        <activity android:name=".Final5Activity"/>
-        <activity android:name=".Final6Activity"/>
-        <activity android:name=".Final7Activity"/>
-        <activity android:name=".Final8Activity"/>
-        <activity android:name=".Final9Activity"/>
+
         <activity android:name=".Final10Activity"/>
-        <activity android:name=".Final11Activity"/>
-        <activity android:name=".Final12Activity"/>
-        <activity android:name=".Final13Activity"/>
-        <activity android:name=".Final14Activity">
+
+        <activity android:name=".StartedActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StartedActivity" />
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

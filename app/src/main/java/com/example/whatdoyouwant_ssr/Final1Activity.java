@@ -16,19 +16,19 @@ public class Final1Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_final1);
         Button btnDialog = findViewById(R.id.btn_store1_address);
-        Button btn10 = findViewById(R.id.btn_store1);
+        Button btn1 = findViewById(R.id.btn_store1);
         btnDialog.setOnClickListener(btnListener);
-        btn10.setOnClickListener(btnListener);
+        btn1.setOnClickListener(btnListener);
     }
 
     View.OnClickListener btnListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
             switch (v.getId()){
-                case R.id.btn_store10:
-                    clicked_btn10("https://map.naver.com/v5/search/%EC%8B%9C%EC%9E%A5%EB%B6%84%EC%8B%9D/place/1344551600?c=14128799.4575170,4506643.5846943,15,0,0,0,dh&placePath=%3F%2526");
+                case R.id.btn_store1:
+                    clicked_btn1("https://map.naver.com/v5/search/%EC%8B%A0%EB%A6%BC%20%EC%B9%B4%ED%8E%98%EB%B2%A0%EB%84%A4/place/31318071?c=14125820.8020710,4507090.2635783,13,0,0,0,dh&placePath=%3Fentry%253Dpll%2526");
                     break;
-                case R.id.btn_store10_address:
+                case R.id.btn_store1_address:
                     AlertDialog.Builder dialog = new AlertDialog.Builder(Final1Activity.this);
                     dialog.setTitle("가게 주소");
                     dialog.setMessage("남부순환로 1600-1");
@@ -38,7 +38,7 @@ public class Final1Activity extends AppCompatActivity {
             }
         }
 
-        private void clicked_btn10(String url) {
+        private void clicked_btn1(String url) {
             Intent intent = new Intent(Intent.ACTION_VIEW);
             intent.setData(Uri.parse(url));
             startActivity(intent);

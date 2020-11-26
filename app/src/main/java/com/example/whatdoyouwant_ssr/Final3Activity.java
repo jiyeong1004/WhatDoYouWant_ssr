@@ -16,19 +16,19 @@ public class Final3Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_final3);
         Button btnDialog = findViewById(R.id.btn_store3_address);
-        Button btn10 = findViewById(R.id.btn_store3);
+        Button btn3 = findViewById(R.id.btn_store3);
         btnDialog.setOnClickListener(btnListener);
-        btn10.setOnClickListener(btnListener);
+        btn3.setOnClickListener(btnListener);
     }
 
     View.OnClickListener btnListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
             switch (v.getId()){
-                case R.id.btn_store10:
-                    clicked_btn10("https://map.naver.com/v5/entry/place/19474836?c=14129704.3970936,4506638.2968658,13,0,0,0,dh&placePath=%2Fhome%3Fentry=plt");
+                case R.id.btn_store3:
+                    clicked_btn3("https://map.naver.com/v5/entry/place/19474836?c=14129704.3970936,4506638.2968658,13,0,0,0,dh&placePath=%2Fhome%3Fentry=plt");
                     break;
-                case R.id.btn_store10_address:
+                case R.id.btn_store3_address:
                     AlertDialog.Builder dialog = new AlertDialog.Builder(Final3Activity.this);
                     dialog.setTitle("가게 주소");
                     dialog.setMessage("신림로 59길 15-13");
@@ -38,7 +38,7 @@ public class Final3Activity extends AppCompatActivity {
             }
         }
 
-        private void clicked_btn10(String url) {
+        private void clicked_btn3(String url) {
             Intent intent = new Intent(Intent.ACTION_VIEW);
             intent.setData(Uri.parse(url));
             startActivity(intent);

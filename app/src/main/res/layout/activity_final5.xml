@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Final10Activity">
+    tools:context=".Final1Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,27 +13,27 @@
         android:orientation="vertical"
         android:gravity="center">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="오늘의 메뉴는?"
-        android:textSize="35sp"
-        android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="오늘의 메뉴는?"
+            android:textSize="35sp"
+            android:textStyle="bold"/>
 
-    <ImageView
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_marginTop="40dp"
-        android:src="@drawable/store5"/>
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/store5"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="맵당 입니다."
-        android:textSize="30sp"
-        android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="맵당 입니다."
+            android:textSize="30sp"
+            android:textStyle="bold"/>
 
     </LinearLayout>
 
@@ -50,7 +50,7 @@
             android:layout_marginLeft="85dp"
             android:layout_gravity="center"
             android:text="가게 주소"
-            android:textSize="15sp" />
+            android:textSize="15sp"/>
 
         <Button
             android:id="@+id/btn_store5"
@@ -60,7 +60,7 @@
             android:layout_marginHorizontal="60dp"
             android:layout_gravity="center"
             android:text="가게 정보"
-            android:textSize="15sp" />
+            android:textSize="15sp"/>
 
     </LinearLayout>
 
