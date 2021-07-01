@@ -1,5 +1,6 @@
 # 신사리, 오늘 뭐 먹지?
 * 신림 사거리 상권 홍보 애플리케이션입니다.
+* 상점 대표 음식들로 월드컵(이중택일) 게임을 할 수 있고, 최종 선정된 상점의 주소와 메뉴 정보를 제공합니다.
 
 <a href="" target="_blank"><img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=for-the-badge&logo=java&logoColor=white"/></a>
 <a href="" target="_blank"><img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" /></a>
