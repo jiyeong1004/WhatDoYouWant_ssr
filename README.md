@@ -1,6 +1,10 @@
 # 신사리, 오늘 뭐 먹지?
 * 신림 사거리 상권 홍보 애플리케이션입니다.
 
+
+<a href="" target="_blank"><img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=for-the-badge&logo=java&logoColor=white"/></a>
+<a href="" target="_blank"><img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" /></a>
+
 ## _'What Do you Want'*_ App Icon
 ![icon](https://user-images.githubusercontent.com/51290739/115226297-0c3e6680-a14a-11eb-932d-c24af5d761b4.jpg)
 
