@@ -11,10 +11,10 @@
 ![icon](https://user-images.githubusercontent.com/51290739/115226297-0c3e6680-a14a-11eb-932d-c24af5d761b4.jpg)
 
 ## Intro
-<img width="400" alt="intro" src="https://user-images.githubusercontent.com/51290739/115227058-f2515380-a14a-11eb-9c11-fe8b299d5f6e.jpg">
+<img width="300" alt="intro" src="https://user-images.githubusercontent.com/51290739/115227058-f2515380-a14a-11eb-9c11-fe8b299d5f6e.jpg">
 
 ## Main
-<img width="400" alt="main" src="https://user-images.githubusercontent.com/51290739/115227047-ee253600-a14a-11eb-94ae-5f84e72eda2d.png">
+<img width="300" alt="main" src="https://user-images.githubusercontent.com/51290739/115227047-ee253600-a14a-11eb-94ae-5f84e72eda2d.png">
 
 ## Result
-<img width="400" alt="result" src="https://user-images.githubusercontent.com/51290739/115227068-f41b1700-a14a-11eb-9c1b-4ca253efe07b.jpg">
+<img width="300" alt="result" src="https://user-images.githubusercontent.com/51290739/115227068-f41b1700-a14a-11eb-9c1b-4ca253efe07b.jpg">
